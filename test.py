@@ -15,11 +15,11 @@ class Test(unittest.TestCase):
         self.assertEqual(result.status_code, 200) 
 
     def test_conteudo(self):
-         envia uma requisicao GET para a URL
-         result = self.app.get('/') 
+         #envia uma requisicao GET para a URL
+         #result = self.app.get('/') 
 
-     #    verifica o retorno do conteudo da pagina
-     #   self.assertRegex(result.data.decode(), "CV on")
+        verifica o retorno do conteudo da pagina
+        self.assertRegex(result.data.decode(), "CV on")
 
 
 if __name__ == "__main__":
