@@ -10,7 +10,7 @@ sudo: required
 
 # Instalação de Módulos que são necessários para a Aplicação.
 install:
-  - pip install -U flask
+  - pip install flask>=0.12.3
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
